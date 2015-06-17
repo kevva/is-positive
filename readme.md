@@ -19,7 +19,7 @@ isPositive(1);
 //=> true
 
 isPositive(0);
-//=> true
+//=> false
 
 isPositive(-1);
 //=> false
