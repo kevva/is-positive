@@ -5,5 +5,5 @@ module.exports = function (n) {
 		throw new TypeError('Expected a number');
 	}
 
-	return n > 0;
+	return n > 0 || x === 0 && (1 / x) === Infinity;
 };
