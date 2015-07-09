@@ -1,7 +1,7 @@
 {
   "name": "is-positive",
   "version": "2.0.0",
-  "description": "Test if a number is positive",
+  "description": "Check if something is a positive number",
   "license": "MIT",
   "repository": "kevva/is-positive",
   "author": {
@@ -21,7 +21,8 @@
   "keywords": [
     "number",
     "positive",
-    "test"
+    "test",
+    "check"
   ],
   "devDependencies": {
     "ava": "^0.0.4"
