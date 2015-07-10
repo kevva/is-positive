@@ -1,6 +1,6 @@
 # is-positive [![Build Status](https://travis-ci.org/kevva/is-positive.svg?branch=master)](https://travis-ci.org/kevva/is-positive)
 
-> Test if a number is positive
+> Check if something is a positive number
 
 
 ## Install
@@ -22,6 +22,9 @@ isPositive(0);
 //=> false
 
 isPositive(-1);
+//=> false
+
+isPositive('1');
 //=> false
 ```
 

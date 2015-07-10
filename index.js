@@ -1,9 +1,4 @@
 'use strict';
-
 module.exports = function (n) {
-	if (typeof n !== 'number') {
-		throw new TypeError('Expected a number');
-	}
-
-	return n > 0;
+	return typeof n === 'number' && n > 0;
 };
