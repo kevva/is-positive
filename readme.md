@@ -28,6 +28,10 @@ isPositive('1');
 //=> false
 ```
 
+## Related
+
+- [is-negative](https://github.com/kevva/is-negative) - Check if something is a negative number
+
 
 ## License
 
