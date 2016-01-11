@@ -26,6 +26,9 @@ isPositive(-1);
 
 isPositive('1');
 //=> false
+
+isPositive(Number(1))
+//=> true
 ```
 
 _Note: This module doesn't consider `0` to be a positive number and doesn't distinguish between `-0` and `0`. If you want to detect `0`, use the [`positive-zero`](https://github.com/sindresorhus/positive-zero) module._
