@@ -1,12 +1,10 @@
-'use strict';
-var test = require('ava');
-var isPositive = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(isPositive(1));
-	t.assert(!isPositive(0));
-	t.assert(!isPositive(-1));
-	t.assert(!isPositive('1'));
-	t.assert(isPositive(Number(1)));
-	t.end();
+test(t => {
+	t.true(m(1));
+	t.false(m(0));
+	t.false(m(-1));
+	t.false(m('1'));
+	t.true(m(Number(1)));
 });

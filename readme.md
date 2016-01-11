@@ -13,7 +13,7 @@ $ npm install --save is-positive
 ## Usage
 
 ```js
-var isPositive = require('is-positive');
+const isPositive = require('is-positive');
 
 isPositive(1);
 //=> true
