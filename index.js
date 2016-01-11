@@ -1,4 +1,4 @@
 'use strict';
 module.exports = function (n) {
-	return typeof n === 'number' && n > 0;
+	return toString.call(n) === "[object Number]" && n > 0;
 };
