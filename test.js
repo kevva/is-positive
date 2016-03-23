@@ -7,4 +7,7 @@ test(t => {
 	t.false(m(-1));
 	t.false(m('1'));
 	t.true(m(Number(1)));
+	t.false(NaN);
+	t.false(true);
+	t.false();
 });
