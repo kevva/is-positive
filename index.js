@@ -1,4 +1,4 @@
 'use strict';
 module.exports = function (n) {
-	return Boolean(Math.sign(n))
+	return Math.sign(n) > 0;
 };
